@@ -22,8 +22,8 @@ nav li a{
     padding: 0 10px;
 }
 nav li a:hover{
-    color: rgb(209, 196, 173);
-    background-color: rgb(133, 113, 78);
+    color: rgb(235, 225, 210);
+    background-color: rgb(189, 173, 148);
 }
 nav li + li::before {
     content: "|";
@@ -36,15 +36,26 @@ nav li + li::before {
 
 header{
     border: 1px solid rgb(189, 172, 125);
-    background-color: rgb(214, 195, 166);
+    background-color: rgb(189, 173, 148);
+}
+h1{
+    text-align: center;
+    color:rgb(99, 81, 52)
 }
 
 section{
     background-color: rgb(245, 230, 207);
+    text-align: justify;
+    color: rgb(99, 81, 52);
 }
 
 h2{
     text-align: center;
+    color:rgb(70, 58, 41)
+}
+
+h3{
+    color:rgb(70, 58, 41);
 }
 
 table, th, td{
@@ -58,7 +69,7 @@ div{
 
 div a{
     text-decoration: none;
-    color: rgb(136, 72, 0);
+    color: rgb(197, 112, 14);
 }
 
 ul{
@@ -68,4 +79,6 @@ ul{
 
 footer{
     text-align: center;
+    align-items: flex-end;
+
 }
