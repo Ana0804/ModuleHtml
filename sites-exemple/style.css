@@ -1,0 +1,42 @@
+body{
+    background-color: aliceblue;
+}
+
+nav{
+    text-align: right;
+    @font-face {
+        font-family: 'lobster';
+        src: url(Lobster.otf) format('truetype');
+    }
+}
+
+section{
+    background-color: rgb(212, 229, 243);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%; 
+}
+
+.browser{
+    margin-left: 5px;
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 80px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.img-responsive{
+    margin: 10px 10px 10px 10px;
+}
+
+

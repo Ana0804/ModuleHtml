@@ -1,13 +1,68 @@
 body{
-    background-color: rgb(226, 218, 194);
+    background-color: rgb(214, 209, 188);
+}
+
+nav{
+    color:rgb(179, 179, 179) ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 55%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    display: table;
+    list-style: none;
+    border: 2px solid rgb(61, 61, 61, 61);
+    border-radius: 20px;
+    padding: 0;
+}
+
+nav li{
+    display: table-cell;
+    width: 0.5%;
+}
+
+nav li a{
+    display: block;
+    color:rgb(156, 156, 156);
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    padding: 0 30px;
+}
+
+nav li a:hover{
+    color: rgb(184, 228, 104);
+}
+
+nav li + li:before {
+    content: "|";
+    float: left;
+    width: 2px;
+    line-height: 40px;
+    color: rgb(49, 49, 49);
+    background-color: rgb(61, 61, 61);
+}
+
+/* nav{
+    margin-left: 60%;
+    margin-right: 10%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
 }
 
 nav ul{
     display: table;
     list-style: none;
     border: 2px solid rgb(133, 113, 78);
-    border-radius: 5px;
-    padding: 0;
+    background-color: rgb(189, 173, 148);
+    border-radius: 20px;
+    width :auto
 }
 nav li{
     display: table-cell;
@@ -18,21 +73,21 @@ nav li a{
     color:rgb(105, 90, 63);
     text-decoration: none;
     text-align: center;
+    letter-spacing: 1.5px;
     line-height: 40px;
-    padding: 0 10px;
+    padding: 0 10px
 }
 nav li a:hover{
     color: rgb(235, 225, 210);
-    background-color: rgb(189, 173, 148);
 }
-nav li + li::before {
+nav li + li:before {
     content: "|";
     float: left;
     width: 2px;
     line-height: 40px;
     color: rgb(133, 113, 78);
     background-color: rgb(133, 113, 78);
-}
+} */
 
 header{
     border: 1px solid rgb(189, 172, 125);
@@ -70,6 +125,7 @@ div{
 div a{
     text-decoration: none;
     color: rgb(197, 112, 14);
+    
 }
 
 ul{
